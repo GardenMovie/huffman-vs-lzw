@@ -1,0 +1,17 @@
+# Compiled Java classes
+out/
+*.class
+
+# Benchmark datasets and inputs — large and fully regenerable.
+# Rebuild with the scripts in scripts/ (populate_*.sh, uncompress_images.sh).
+data/
+datasets/
+
+# Compression outputs
+*.huf
+*.lzw
+*.out.*
+
+# OS / editor cruft
+.DS_Store
+*.swp

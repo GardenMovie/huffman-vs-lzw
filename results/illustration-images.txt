@@ -1,0 +1,41 @@
+Dataset: illustration-images   (raw .ppm (from source jpg/png), 15 file(s))
+
+file                         algo         original      encoded    ratio  encode ms  decode ms struct ent struct byt    ok
+------------------------------------------------------------------------------------------------------------------------
+wallhaven-1p5z71.ppm         Huffman    24,883,217    9,632,215    0.387      598.4      246.6        225      1,024   yes
+wallhaven-1p5z71.ppm         LZW        24,883,217    1,939,708    0.078     3394.6      434.6     65,536          0   yes
+wallhaven-3z5jd3.ppm         Huffman    11,059,217    5,067,255    0.458      209.9      121.8        256      1,024   yes
+wallhaven-3z5jd3.ppm         LZW        11,059,217    4,519,214    0.409     3039.6      225.2     65,536          0   yes
+wallhaven-5geev3.ppm         Huffman    24,883,217   22,899,978    0.920      495.9      461.4        229      1,024   yes
+wallhaven-5geev3.ppm         LZW        24,883,217   45,959,760    1.847     1957.8      331.3     65,536          0   yes
+wallhaven-5gq3o8.ppm         Huffman   123,863,057   56,287,941    0.454     1496.4     1328.9        256      1,024   yes
+wallhaven-5gq3o8.ppm         LZW       123,863,057   39,770,174    0.321    81064.4     1059.9     65,536          0   yes
+wallhaven-5yd6d5.ppm         Huffman     6,220,817    2,817,004    0.453       80.8       62.9         38      1,024   yes
+wallhaven-5yd6d5.ppm         LZW         6,220,817      118,486    0.019     1093.0       46.1     63,446          0   yes
+wallhaven-7p8eq3.ppm         Huffman    10,658,609    3,276,199    0.307      102.6       77.1        248      1,024   yes
+wallhaven-7p8eq3.ppm         LZW        10,658,609      619,894    0.058     4291.4       74.0     65,536          0   yes
+wallhaven-852q62.ppm         Huffman    72,000,017   58,247,964    0.809     1472.8     1384.9        255      1,024   yes
+wallhaven-852q62.ppm         LZW        72,000,017  113,450,830    1.576     5293.9      963.6     65,536          0   yes
+wallhaven-8g5p52.ppm         Huffman    24,883,217   21,889,739    0.880      490.4      441.7        256      1,024   yes
+wallhaven-8g5p52.ppm         LZW        24,883,217   38,575,996    1.550     1525.2      323.3     65,536          0   yes
+wallhaven-d6r9ml.ppm         Huffman    24,883,217   21,987,466    0.884      529.4      481.9        245      1,024   yes
+wallhaven-d6r9ml.ppm         LZW        24,883,217   46,217,716    1.857     1474.6      344.2     65,536          0   yes
+wallhaven-exmq1k.ppm         Huffman    18,000,017    2,585,934    0.144      128.4       67.3        256      1,024   yes
+wallhaven-exmq1k.ppm         LZW        18,000,017      146,036    0.008    14596.6      120.6     65,536          0   yes
+wallhaven-ly93ry.ppm         Huffman    24,883,217    8,515,326    0.342      241.2      183.5         53      1,024   yes
+wallhaven-ly93ry.ppm         LZW        24,883,217      581,216    0.023     5425.8      183.7     65,536          0   yes
+wallhaven-o5k7kl.ppm         Huffman    44,236,817   36,338,399    0.821      839.5      793.1        256      1,024   yes
+wallhaven-o5k7kl.ppm         LZW        44,236,817   62,926,282    1.422     3773.0      551.6     65,536          0   yes
+wallhaven-og3p6m.ppm         Huffman     6,226,577    4,612,321    0.741      107.0       98.2        256      1,024   yes
+wallhaven-og3p6m.ppm         LZW         6,226,577    4,898,186    0.787      478.4       63.9     65,536          0   yes
+wallhaven-ogx5y9.ppm         Huffman    40,608,017   19,181,524    0.472      540.1      448.2        246      1,024   yes
+wallhaven-ogx5y9.ppm         LZW        40,608,017    3,217,220    0.079     5021.2      313.1     65,536          0   yes
+wallhaven-yqjdpd.ppm         Huffman    24,883,217   15,507,110    0.623      379.1      323.7        254      1,024   yes
+wallhaven-yqjdpd.ppm         LZW        24,883,217   16,264,656    0.654     3263.6      247.3     65,536          0   yes
+
+====================================================================================================
+TOTALS across 15 file(s)  (15/15 round-tripped correctly)
+algo           total in      total out    ratio    encode ms    decode ms struct ent a/p struct byt a/p
+--------------------------------------------------------------------------------------------------------
+Huffman     482,172,447    288,846,375    0.599       7711.9       6521.2        222/256      1024/1024
+LZW         482,172,447    379,205,374    0.786     135693.1       5282.4    65397/65536            0/0
